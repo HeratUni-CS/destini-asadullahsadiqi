@@ -68,8 +68,8 @@ class _StoryPageState extends State<StoryPage> {
                   },
                   color: Colors.red,
                   child: Text(
-                    //TODO: Step 13 - Use the storyBrain to get the text for choice 1.
-                    // mystorybrain.getChoice1(),
+                    //TODO: Step 13 -
+                    mystorybrain.getChoice1(),
                     ' choce 1',
                     style: TextStyle(
                       fontSize: 20.0,

@@ -58,11 +58,11 @@ class _StoryPageState extends State<StoryPage> {
                 child: FlatButton(
                   onPressed: () {
                     setState(() {
-                      // if (mystorybrain.isfinished() == true) {
-                      //   mystorybrain.restart();
-                      // } else {
-                      //   mystorybrain.nextStory(1);
-                      // }
+                      if (mystorybrain.isfinished() == true) {
+                        mystorybrain.restart();
+                      } else {
+                        mystorybrain.nextStory(1);
+                      }
                     });
                     //TODO: Step 18 - Call the nextStory() method from storyBrain and pass the number 1 as the choice made by the user.
                   },

@@ -16,7 +16,7 @@ class destini extends StatelessWidget {
   }
 }
 
-// StoryBrain mystorybrain = StoryBrain();
+StoryBrain mystorybrain = StoryBrain();
 
 class StoryPage extends StatefulWidget {
   _StoryPageState createState() => _StoryPageState();

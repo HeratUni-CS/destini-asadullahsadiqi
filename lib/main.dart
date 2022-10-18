@@ -43,9 +43,9 @@ class _StoryPageState extends State<StoryPage> {
                 flex: 12,
                 child: Center(
                   child: Text(
-                    // mystorybrain.getStory(),
+                    mystorybrain.getStory(),
 
-                    ' Text title',
+
                     style: TextStyle(
                       fontSize: 25.0,
                       color: Colors.white,

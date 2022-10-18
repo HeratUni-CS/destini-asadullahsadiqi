@@ -70,7 +70,7 @@ class _StoryPageState extends State<StoryPage> {
                   child: Text(
                     //TODO: Step 13 -
                     mystorybrain.getChoice1(),
-                    ' choce 1',
+
                     style: TextStyle(
                       fontSize: 20.0,
                     ),
@@ -89,15 +89,15 @@ class _StoryPageState extends State<StoryPage> {
                   child: FlatButton(
                     onPressed: () {
                       setState(() {
-                        // mystorybrain.nextStory(2);
+                        mystorybrain.nextStory(2);
                       });
                       //TODO: Step 19 - Call the nextStory() method from storyBrain and pass the number 2 as the choice made by the user.
                     },
                     color: Colors.blue,
                     child: Text(
                       //TODO: Step 14 - Use the storyBrain to get the text for choice 2.
-                      // mystorybrain.getChoice2(),
-                      'chose2',
+                      mystorybrain.getChoice2(),
+
                       style: TextStyle(
                         fontSize: 20.0,
                       ),
